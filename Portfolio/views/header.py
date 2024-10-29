@@ -2,6 +2,7 @@ import reflex as rx
 import Portfolio.styles.styles as styles
 from Portfolio.components.link_icon import link_icon
 from Portfolio.styles.styles import Size as Size
+from Portfolio.styles.styles import body_style_size
 from Portfolio.styles.colors import Color as Color
 from Portfolio.styles.colors import TextColor as TextColor
 
@@ -62,11 +63,6 @@ def header() -> rx.Component:
             como medio para exponer mis proyectos y también, a modo de comunicación profesional.""",
             width="100%"
         ),
-        spacing= Size.DEFAULT.value,
-        padding_x=Size.SMALL.value,
+        style= body_style_size,
         border="solid 1px yellow",
-        
-        margin_y=styles.Size.BIG.value,
-        width="100%",
-        max_width=styles.MAX_WIDTH
     )

@@ -11,6 +11,7 @@ class Size(Enum):
     MEDIUM="0.8em"
     DEFAULT= "1em"
     BIG="2em"
+    MORE_BIG="3em"
     VERY_BIG="4em"
 
 STYLESHEETS=[
@@ -59,4 +60,12 @@ border_image_foot = dict(
     border_radius="7px 25px",
     border="5px solid",
     border_color=Color.COLOR_HOVER.value
+)
+
+body_style_size = dict(
+    width= "100%",
+    spacing= Size.DEFAULT.value,
+    max_width= MAX_WIDTH,
+    margin_y= Size.DEFAULT.value,
+    padding_x=Size.SMALL.value
 )
