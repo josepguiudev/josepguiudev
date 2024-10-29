@@ -8,6 +8,7 @@ MAX_WIDTH = "700px"
 
 class Size(Enum):
     SMALL="0.5em"
+    MEDIUM="0.8em"
     DEFAULT= "1em"
     BIG="2em"
     VERY_BIG="4em"
@@ -52,4 +53,10 @@ button_title_style = dict(
 button_body_style = dict(
     font_size = Size.DEFAULT.value,
     color= TextColor.PRIMARY.value
+)
+
+border_image_foot = dict(
+    border_radius="7px 25px",
+    border="5px solid",
+    border_color=Color.COLOR_HOVER.value
 )

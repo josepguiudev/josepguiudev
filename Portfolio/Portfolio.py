@@ -3,6 +3,7 @@ import Portfolio.styles.styles as styles
 from Portfolio.views.navbar import navbar
 from Portfolio.views.header import header
 from Portfolio.views.contact import links
+from Portfolio.views.footer import footer
 
 class State(rx.State):
     pass
@@ -17,7 +18,8 @@ def index() -> rx.Component:
                 header(),
                 links()
             )
-        )
+        ),
+        footer()
     )
 
 app = rx.App(

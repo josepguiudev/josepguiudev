@@ -14,3 +14,4 @@ class TextColor(Enum):
     PRIMARY="#FFFFFF"
     SECONDARY="#212529"
     TERTIARY="#D3D3D3"
+    FOOTER = "#A3ABB2"
