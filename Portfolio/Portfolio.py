@@ -2,6 +2,7 @@ import reflex as rx
 import Portfolio.styles.styles as styles
 from Portfolio.views.navbar import navbar
 from Portfolio.views.header import header
+from Portfolio.views.contact import links
 
 class State(rx.State):
     pass
@@ -14,9 +15,7 @@ def index() -> rx.Component:
         rx.center(
             rx.vstack(
                 header(),
-                margin_y=styles.Size.BIG.value,
-                width="100%",
-                max_width=styles.MAX_WIDTH
+                links()
             )
         )
     )
@@ -30,5 +29,5 @@ app.add_page(
     index,
     title= "Web Personal de Josep Guiu",
     description="Programador junior buscando trabajo",
-    image="favicon.ico"
+    image="fotoperfil.jpg"
     )

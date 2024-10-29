@@ -24,5 +24,32 @@ BASE_STYLE={
     rx.link: {
         "text_decoration": "none",
         "_hover": {}
-    }
+    },
+    rx.button: {
+        "width": "100%",
+        "height": "100%",
+        "padding": Size.SMALL.value,
+        "border_radius": Size.DEFAULT.value,
+        "background_color": Color.CONTENT.value,
+        "color": TextColor.HEADER.value,
+        "white_space": "normal",
+        "text_align": "start",
+        "_hover": {"background_color": Color.COLOR_HOVER.value}
+    },
 }
+
+title_style = dict(
+    width= "100%",
+    padding_top = Size.DEFAULT.value,
+    color= TextColor.PRIMARY.value
+)
+
+button_title_style = dict(
+    font_size = Size.DEFAULT.value,
+    color= TextColor.SECONDARY.value
+)
+
+button_body_style = dict(
+    font_size = Size.DEFAULT.value,
+    color= TextColor.PRIMARY.value
+)

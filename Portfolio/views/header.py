@@ -1,4 +1,5 @@
 import reflex as rx
+import Portfolio.styles.styles as styles
 from Portfolio.components.link_icon import link_icon
 from Portfolio.styles.styles import Size as Size
 from Portfolio.styles.colors import Color as Color
@@ -8,13 +9,14 @@ def header() -> rx.Component:
     return rx.vstack(
         rx.hstack(
             rx.avatar(
-                src="pepeIA.jpg",
+                src="fotoperfil.jpg",
                 name="Josep Guiu",
                 size="7",
                 fallback="Pepe",
                 radius= "full",
                 border= "3px solid",
-                border_color= Color.PRIMARY.value
+                border_color= Color.PRIMARY.value,
+                alt="Foto perfil de developer"
             ),
             rx.vstack(
                 rx.heading(
@@ -62,5 +64,9 @@ def header() -> rx.Component:
         ),
         spacing= Size.DEFAULT.value,
         padding_x=Size.SMALL.value,
-        border="solid 1px yellow"
+        border="solid 1px yellow",
+        
+        margin_y=styles.Size.BIG.value,
+        width="100%",
+        max_width=styles.MAX_WIDTH
     )
