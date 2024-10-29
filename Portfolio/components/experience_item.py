@@ -8,7 +8,8 @@ def experience_item(avatar_image: str, company_name: str, date: str) -> rx.Compo
                     src=avatar_image,
                     size="4",
                     alt= "Logotipo de empresa donde se ha tenido experiencia",
-                    radius="full"
+                    radius="full",
+                    fallback=company_name,
                 ),
                 margin_right=Size.DEFAULT.value
             ),
@@ -21,5 +22,6 @@ def experience_item(avatar_image: str, company_name: str, date: str) -> rx.Compo
                 rx.text(date)
             ),
             align_items="center",
-            style= body_style_size
+            style= body_style_size,
+            margin_y=Size.SUPER_SMALL.value
         )

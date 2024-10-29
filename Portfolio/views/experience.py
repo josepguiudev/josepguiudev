@@ -7,6 +7,9 @@ def experience() -> rx.Component:
     return rx.vstack(
         title("EXPERIENCIA"),
         experience_item("fotoperfil.jpg", "Nombre de la empresa", "FECHA"),
+        experience_item("fotoperfil.jpg", "Nombre de la empresa", "FECHA"),
+        experience_item("fotoperfil.jpg", "Nombre de la empresa", "FECHA"),
+        experience_item("fotoperfil.jpg", "Nombre de la empresa", "FECHA"),
         style=body_style_size,
         border="1px solid orange"
     )

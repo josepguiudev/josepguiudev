@@ -7,6 +7,7 @@ from .colors import Color, TextColor
 MAX_WIDTH = "700px"
 
 class Size(Enum):
+    SUPER_SMALL = "0.2em"
     SMALL="0.5em"
     MEDIUM="0.8em"
     DEFAULT= "1em"
