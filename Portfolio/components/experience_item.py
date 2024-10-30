@@ -1,16 +1,17 @@
 import reflex as rx
-from Portfolio.styles.styles import Size, body_style_size
-import Portfolio.constants as Constants 
+from Portfolio.styles.styles import Size
+from Portfolio.styles.styles import Color, body_style_size
 
 def experience_item(company_name) -> rx.Component:
     return rx.flex(
             rx.box(
                 rx.avatar(
-                    #src=avatar_image,
+                    src=f"{company_name["image"]}",
                     size="4",
                     alt= "Logotipo de empresa donde se ha tenido experiencia",
                     radius="full",
-                    #fallback=Constants.companies[f"{company_name}"],
+                    fallback=f"{company_name["initials"]}",
+                    border=f"2px solid {Color.COLOR_HOVER.value}"
                 ),
                 margin_right=Size.DEFAULT.value
             ),

@@ -1,39 +1,34 @@
-#number_companies_where_worked: int = 2
 import reflex as rx
 
 companies = [
-        {
-            "name": "Qontinuum-Plus",
-            "image": "Predefinied",
-            "date": "2022-2024"
-        },
-        {
-            "name": "otra cowsa",
-            "image": "Predefinied",
-            "date": "2022-2024"
-        }
-    ]
+    {
+        "name": "Qontinuum-Plus",
+        "image": "Develop.png",
+        "date": "2022-2024",
+        "initials": "Q-P"
+    },
+    {
+        "name": "otra cowsa",
+        "image": "Develop.png",
+        "date": "2022-2024",
+        "initials": "X-X"
+    }        
+]
 
-
-# companies = [
-#     {
-#         "name": "Qontinuum-Plus",
-#         "image": "Predefinied",
-#         "date": "2022-2024"
-#     },
-#     {
-#         "name": "otra cowsa",
-#         "image": "Predefinied",
-#         "date": "2022-2024"
-#     }
-#     ]
-
-
-number_languages_knowed = 5
-languages = {
-    "0": "Java",
-    "1": "C#",
-    "2": "Android studio",
-    "3": "Python",
-    "4": "Arduino"
-}
+languages = [
+    {"name": "JAVA",
+     "image": "language.png"
+    },
+    {"name": "C#",
+     "image": "language.png"
+    },
+    {"name": "Android Studio",
+     "image": "language.png"
+    },
+    {"name": "Python",
+     "image": "language.png"
+    },
+    {"name": "Arduino",
+     "image": "language.png"
+    },
+]

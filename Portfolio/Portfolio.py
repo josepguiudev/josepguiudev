@@ -2,9 +2,10 @@ import reflex as rx
 import Portfolio.styles.styles as styles
 from Portfolio.views.navbar import navbar
 from Portfolio.views.header import header
+from Portfolio.views.education import education
 from Portfolio.views.contact import contact
-from Portfolio.views.footer import footer
 from Portfolio.views.experience import experience
+from Portfolio.views.footer import footer
 
 class State(rx.State):
     pass
@@ -17,6 +18,7 @@ def index() -> rx.Component:
         rx.center(
             rx.vstack(
                 header(),
+                education(),
                 experience(),
                 contact()
             )
