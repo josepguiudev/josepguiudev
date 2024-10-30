@@ -6,7 +6,7 @@ def knowledge_card(language) -> rx.Component:
     return rx.card(
             rx.flex(
                 rx.avatar(
-                    src=f"languages/{language["image"]}",
+                    src=language["image"],
                     alt="logo lenguaje de programación",
                     fallback=language["initials"]
                     ),

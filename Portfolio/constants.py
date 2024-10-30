@@ -17,81 +17,81 @@ companies = [
 
 languages = [
     {"name": "Java",
-     "image": "java.png",
+     "image": "languages/java.png",
      "initials": "JA"
     },
     {"name": "C Sharp",
-     "image": "c#.png",
+     "image": "languages/c#.png",
      "initials": "C#"
     },
     {"name": "Java Android",
-     "image": "android.png",
+     "image": "languages/android.png",
      "initials": "AN"
     },
     {"name": "Python",
-     "image": "python.png",
+     "image": "languages/python.png",
      "initials": "PY"
     },
     {"name": "Arduino",
-     "image": "arduino.png",
+     "image": "languages/arduino.png",
      "initials": "AR"
     },
 ]
 
 data_manager = [
     {"name": "SQL",
-     "image": "develop.png",
+     "image": "datamanager/sql.png",
      "initials": "JA"
     },
     {"name": "MySQL",
-     "image": "develop.png",
+     "image": "datamanager/mysql.png",
      "initials": "C#"
     },
     {"name": "MongoDB",
-     "image": "develop.png",
+     "image": "datamanager/mongodb.png",
      "initials": "C#"
     }
 ]
 
 ide_s = [
     {"name": "NetBeans",
-     "image": "develop.png",
+     "image": "ide/netbeans.png",
      "initials": "NB"
     },
     {"name": "Visual Studio Code",
-     "image": "develop.png",
+     "image": "ide/visualcode.png",
      "initials": "VSC"
     },
     {"name": "Visual Code",
-     "image": "develop.png",
+     "image": "ide/visualstudio.png",
      "initials": "VS"
     },
     {"name": "Arduino",
-     "image": "develop.png",
+     "image": "ide/arduino.png",
      "initials": "AR"
     },
     {"name": "Postman",
-     "image": "develop.png",
+     "image": "ide/postman.png",
      "initials": "PO"
     },
     {"name": "MySQL Workbench",
-     "image": "develop.png",
+     "image": "ide/mysqlworkbench.png",
      "initials": "MW"
     },
     {"name": "MongoDB Compass",
-     "image": "develop.png",
+     "image": "ide/mongodbcompass.png",
      "initials": "MC"
     },
     {"name": "Git Kraken",
-     "image": "develop.png",
+     "image": "ide/gitkraken.png",
      "initials": "GK"
     },
     {"name": "Git Bash",
-     "image": "develop.png",
+     "image": "ide/gitbash.png",
      "initials": "GB"
     },
     {"name": "Source Tree",
-     "image": "develop.png",
+     "image": "ide/sourcetree.jpg",
      "initials": "ST"
     }
 ]

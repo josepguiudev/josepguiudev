@@ -4,6 +4,8 @@ from Portfolio.views.navbar import navbar
 from Portfolio.views.header import header
 from Portfolio.views.education import education
 from Portfolio.views.languages import languages
+from Portfolio.views.data_manager import data_manager
+from Portfolio.views.used_ide import used_ide
 from Portfolio.views.contact import contact
 from Portfolio.views.experience import experience
 from Portfolio.views.footer import footer
@@ -21,6 +23,8 @@ def index() -> rx.Component:
                 header(),
                 education(),
                 languages(),
+                data_manager(),
+                used_ide(),
                 experience(),
                 contact()
             )
