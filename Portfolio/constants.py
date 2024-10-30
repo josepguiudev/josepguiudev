@@ -16,19 +16,82 @@ companies = [
 ]
 
 languages = [
-    {"name": "JAVA",
-     "image": "language.png"
+    {"name": "Java",
+     "image": "java.png",
+     "initials": "JA"
     },
-    {"name": "C#",
-     "image": "language.png"
+    {"name": "C Sharp",
+     "image": "c#.png",
+     "initials": "C#"
     },
-    {"name": "Android Studio",
-     "image": "language.png"
+    {"name": "Java Android",
+     "image": "android.png",
+     "initials": "AN"
     },
     {"name": "Python",
-     "image": "language.png"
+     "image": "python.png",
+     "initials": "PY"
     },
     {"name": "Arduino",
-     "image": "language.png"
+     "image": "arduino.png",
+     "initials": "AR"
     },
+]
+
+data_manager = [
+    {"name": "SQL",
+     "image": "develop.png",
+     "initials": "JA"
+    },
+    {"name": "MySQL",
+     "image": "develop.png",
+     "initials": "C#"
+    },
+    {"name": "MongoDB",
+     "image": "develop.png",
+     "initials": "C#"
+    }
+]
+
+ide_s = [
+    {"name": "NetBeans",
+     "image": "develop.png",
+     "initials": "NB"
+    },
+    {"name": "Visual Studio Code",
+     "image": "develop.png",
+     "initials": "VSC"
+    },
+    {"name": "Visual Code",
+     "image": "develop.png",
+     "initials": "VS"
+    },
+    {"name": "Arduino",
+     "image": "develop.png",
+     "initials": "AR"
+    },
+    {"name": "Postman",
+     "image": "develop.png",
+     "initials": "PO"
+    },
+    {"name": "MySQL Workbench",
+     "image": "develop.png",
+     "initials": "MW"
+    },
+    {"name": "MongoDB Compass",
+     "image": "develop.png",
+     "initials": "MC"
+    },
+    {"name": "Git Kraken",
+     "image": "develop.png",
+     "initials": "GK"
+    },
+    {"name": "Git Bash",
+     "image": "develop.png",
+     "initials": "GB"
+    },
+    {"name": "Source Tree",
+     "image": "develop.png",
+     "initials": "ST"
+    }
 ]

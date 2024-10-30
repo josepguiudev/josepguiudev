@@ -3,6 +3,7 @@ import Portfolio.styles.styles as styles
 from Portfolio.views.navbar import navbar
 from Portfolio.views.header import header
 from Portfolio.views.education import education
+from Portfolio.views.languages import languages
 from Portfolio.views.contact import contact
 from Portfolio.views.experience import experience
 from Portfolio.views.footer import footer
@@ -19,6 +20,7 @@ def index() -> rx.Component:
             rx.vstack(
                 header(),
                 education(),
+                languages(),
                 experience(),
                 contact()
             )
