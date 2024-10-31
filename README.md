@@ -7,10 +7,10 @@ Soy Pepe, un desarrollador de software con experiencia en Java, Python y C# (ent
 - **Tecnologías**: Python
 
 ## Actualmente estoy trabajando en ... 🔭
-### ConnectYourArduinoWithJava
+### - **ConnectYourArduinoWithJava**
 
 ## Actualmente estoy aprendiendo ... 🌱
-### JavaScript
+### - **JavaScript**
 
 # Mi Portfolio
 Bienvenido a mi portfolio. Aquí encontrarás una colección de mis proyectos y habilidades.
