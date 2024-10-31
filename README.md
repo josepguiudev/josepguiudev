@@ -13,7 +13,7 @@ Soy Pepe, un desarrollador de software con experiencia en Java, Python y C# (ent
 ### - **JavaScript**
 
 # Mi Portfolio
-Bienvenido a mi portfolio. Aquí encontrarás una colección de mis proyectos y habilidades.
+Bienvenido a mi portfolio. [Aquí](https://github.com/josepguiudev/josepguiudev) encontrarás una colección de mis proyectos y habilidades.
 ## Contacto
 Puedes encontrarme en [LinkedIn](https://github.com/josepguiudev/) o enviarme un correo a [Josep.Guiu.Dev@gmail.com](mailto:Josep.Guiu.Dev@gmail.com).
 
