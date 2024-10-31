@@ -1,5 +1,19 @@
-## Hi there 👋
+## HOLA! 👋
+Soy Pepe, un desarrollador de software con experiencia en Java, Python y C# (entre otros). Me apasiona crear proyectos personales y poderlos compartir.
 
+## Proyectos Destacados
+### [Portfolio](https://github.com/josepguiudev/josepguiudev)
+- **Descripción**: Este proyecto es una aplicación web que permite darme a conocer.
+- **Tecnologías**: Python
+
+##🔭 Actualmente estoy trabajando en ...
+### ConnectYourArduinoWithJava
+
+##🌱 Actualmente estoy aprendiendo ...
+### JavaScript
+
+# Mi Portfolio
+Bienvenido a mi portfolio. Aquí encontrarás una colección de mis proyectos y habilidades.
 ## Contacto
 Puedes encontrarme en [LinkedIn](https://github.com/josepguiudev/) o enviarme un correo a [Josep.Guiu.Dev@gmail.com](mailto:Josep.Guiu.Dev@gmail.com).
 
