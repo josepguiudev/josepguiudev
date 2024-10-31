@@ -1,5 +1,8 @@
 ## Hi there 👋
 
+## Contacto
+Puedes encontrarme en [LinkedIn](https://github.com/josepguiudev/) o enviarme un correo a [Josep.Guiu.Dev@gmail.com](mailto:Josep.Guiu.Dev@gmail.com).
+
 <!--
 **josepguiudev/josepguiudev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
