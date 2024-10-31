@@ -4,7 +4,7 @@ Soy Pepe, un desarrollador de software con experiencia en Java, Python y C# (ent
 ## Proyectos Destacados
 ### [Portfolio](https://github.com/josepguiudev/josepguiudev)
 - **Descripción**: Este proyecto es una aplicación web que permite darme a conocer.
-- **Tecnologías**: Python
+- **Tecnologías**: Python con reflex
 
 ## Actualmente estoy trabajando en ... 🔭
 ### - **ConnectYourArduinoWithJava**
