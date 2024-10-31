@@ -31,9 +31,9 @@ def header() -> rx.Component:
                     margin_top= "-12px !important"
                 ),
                 rx.hstack(
-                    link_icon("google.com"),
-                    link_icon("google.com"),
-                    link_icon("google.com")
+                    link_icon("instagram", "google.com"), #https://reflex.dev/docs/library/data-display/icon/
+                    link_icon("linkedin", "google.com"),
+                    link_icon("facebook", "google.com")
                 ),
             ),
         spacing= Size.BIG.value

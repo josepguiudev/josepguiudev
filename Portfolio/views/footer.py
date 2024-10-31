@@ -13,9 +13,19 @@ def footer() -> rx.Component:
                     "Web desarrollada por Josep Guiu Sillés", 
                     font_size=Size.MEDIUM.value),
                 rx.spacer(),
-                rx.text(
-                    "Versión actual -> V.1", 
-                    font_size=Size.MEDIUM.value)
+                rx.hstack(
+                    rx.text(
+                    "Versión actual", 
+                    font_size=Size.MEDIUM.value),
+                    rx.icon(
+                        tag= "arrow-right",
+                        size=20
+                    ),
+                    rx.text(
+                        "V.1", 
+                    font_size=Size.MEDIUM.value,
+                    color="green"),
+                ),
             ),
             rx.spacer(),
             rx.vstack(
@@ -23,9 +33,13 @@ def footer() -> rx.Component:
                     "Página personal", 
                     font_size=Size.MEDIUM.value),
                 rx.spacer(),
-                rx.text(
-                    "Repositorio de GITHUB", 
-                    font_size=Size.MEDIUM.value)
+                rx.link(
+                    rx.text(
+                        "Repositorio de GITHUB", 
+                        font_size=Size.MEDIUM.value),
+                    href= "https://github.com/josepguiudev/josepguiudev",
+                    is_external= True
+                ),
             ),
         ),
         rx.spacer(),
