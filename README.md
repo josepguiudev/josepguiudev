@@ -1,5 +1,5 @@
 ## HOLA! 👋
-Soy Pepe, un desarrollador de software con experiencia en Java, Python y C# (entre otros). Me apasiona crear proyectos personales y poderlos compartir.
+Soy Pepe, un desarrollador de software con experiencia en Java, Python y C# (entre otros). Me apasiona crear proyectos personales y poderlos compartir. Actualmente estoy abierto a escuchar ofertas de empleo
 
 ## Proyectos Destacados
 ### [Portfolio](https://github.com/josepguiudev/josepguiudev)
