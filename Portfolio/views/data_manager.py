@@ -12,10 +12,8 @@ def data_manager() -> rx.Component:
                 rx.foreach(Constants.data_manager, knowledge_card),
                 columns="3",
                 spacing="4",    
-                style=body_style_size,
-                border="solid 1px red"
+                style=body_style_size
             ),
         ),
-        style=body_style_size,
-        border="solid 1px green"
+        style=body_style_size
     )

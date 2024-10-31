@@ -58,8 +58,8 @@ button_body_style = dict(
 )
 
 border_image_foot = dict(
-    border_radius="7px 25px",
-    border="5px solid",
+    border_radius="25px 7px",
+    border="3px solid",
     border_color=Color.COLOR_HOVER.value
 )
 

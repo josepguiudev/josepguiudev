@@ -8,6 +8,7 @@ from Portfolio.views.data_manager import data_manager
 from Portfolio.views.used_ide import used_ide
 from Portfolio.views.contact import contact
 from Portfolio.views.experience import experience
+from Portfolio.views.more_data import more_data
 from Portfolio.views.footer import footer
 
 class State(rx.State):
@@ -26,6 +27,7 @@ def index() -> rx.Component:
                 data_manager(),
                 used_ide(),
                 experience(),
+                more_data(),
                 contact()
             )
         ),

@@ -8,6 +8,5 @@ def experience() -> rx.Component:
     return rx.vstack(
         title("EXPERIENCIA"),
         rx.foreach(Constants.companies, experience_item),
-        style=body_style_size,  
-        border="1px solid orange"
+        style=body_style_size
     )

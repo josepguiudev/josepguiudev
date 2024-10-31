@@ -11,6 +11,5 @@ def contact() -> rx.Component:
             "Envíame un correo electrónico si quieres contactar conmigo", 
             "Josep.Guiu.Dev@gmail.com", 
             f"mailto:{"josep.guiu.s@gmail.com"}"),
-        style=body_style_size,
-        border="solid 1px red"
+        style=body_style_size
     )

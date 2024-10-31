@@ -8,7 +8,7 @@ companies = [
         "initials": "Q-P"
     },
     {
-        "name": "otra cowsa",
+        "name": "Próxima empresa",
         "image": "Develop.png",
         "date": "2022-2024",
         "initials": "X-X"
@@ -21,7 +21,7 @@ languages = [
      "initials": "JA"
     },
     {"name": "C Sharp",
-     "image": "languages/c#.png",
+     "image": "languages\csharp.png",
      "initials": "C#"
     },
     {"name": "Java Android",
@@ -36,6 +36,10 @@ languages = [
      "image": "languages/arduino.png",
      "initials": "AR"
     },
+    {"name": "Reflex",
+     "image": "languages/reflex.ico",
+     "initials": "RF"
+    }
 ]
 
 data_manager = [

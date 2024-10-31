@@ -63,6 +63,5 @@ def header() -> rx.Component:
             como medio para exponer mis proyectos y también, a modo de comunicación profesional.""",
             width="100%"
         ),
-        style= body_style_size,
-        border="solid 1px yellow",
+        style= body_style_size
     )

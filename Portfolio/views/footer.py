@@ -29,20 +29,17 @@ def footer() -> rx.Component:
             ),
         ),
         rx.spacer(),
-        rx.hstack(
-            rx.image(
-                src="fotoperfil.jpg",
-                width="auto",
-                height= Size.VERY_BIG.value,
-                style= styles.border_image_foot,
-                alt= "Logotipo de josep, una \"D\" dentro de un circulo"
-            ),
+        rx.image(
+            src="fotoperfil.jpg",
+            width="auto",
+            height= Size.VERY_BIG.value,
+            style= styles.border_image_foot,
+            alt= "Logotipo de josep, una \"D\" dentro de un circulo"
         ),
         margin_bottom= Size.BIG.value,
         padding_y= Size.SMALL.value,
         padding_x= Size.BIG.value,
         color= TextColor.FOOTER.value,
         align_items="center",
-        width="100%",
-        border="solid 1px green"
+        width="100%"
     )

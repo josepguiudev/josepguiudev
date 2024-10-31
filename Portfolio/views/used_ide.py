@@ -12,10 +12,8 @@ def used_ide() -> rx.Component:
                 rx.foreach(Constants.ide_s, knowledge_card),
                 columns="3",
                 spacing="4",    
-                style=body_style_size,
-                border="solid 1px red"
+                style=body_style_size
             ),
         ),
-        style=body_style_size,
-        border="solid 1px green"
+        style=body_style_size
     )

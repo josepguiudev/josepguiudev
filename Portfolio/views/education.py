@@ -30,7 +30,6 @@ def education() -> rx.Component:
             rx.text.strong(" \"UAB\" "),
             width="100%"
         ),
-        style=body_style_size,  
-        border="1px solid blue"
+        style=body_style_size
     )
 

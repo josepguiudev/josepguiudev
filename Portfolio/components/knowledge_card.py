@@ -8,7 +8,8 @@ def knowledge_card(language) -> rx.Component:
                 rx.avatar(
                     src=language["image"],
                     alt="logo lenguaje de programación",
-                    fallback=language["initials"]
+                    fallback=language["initials"],
+                    object_fit="contain"
                     ),
                 rx.box(
                     rx.text(
