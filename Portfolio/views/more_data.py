@@ -8,7 +8,7 @@ def more_data() -> rx.Component:
         rx.text(
             "·Me gusta trabajar usando ",
             rx.text.strong(" \"testing\" "),
-            "en micódigo.",
+            "en mi código.",
             width="100%"
         ),
         rx.text(

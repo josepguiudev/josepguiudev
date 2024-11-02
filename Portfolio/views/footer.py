@@ -44,7 +44,7 @@ def footer() -> rx.Component:
         ),
         rx.spacer(),
         rx.image(
-            src="fotoperfil.jpg",
+            src="logopie2.jpg",
             width="auto",
             height= Size.VERY_BIG.value,
             style= styles.border_image_foot,

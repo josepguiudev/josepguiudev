@@ -10,7 +10,7 @@ companies = [
     {
         "name": "Próxima empresa",
         "image": "Develop.png",
-        "date": "2022-2024",
+        "date": "2024-2024",
         "initials": "X-X"
     }        
 ]
@@ -39,6 +39,10 @@ languages = [
     {"name": "Reflex",
      "image": "languages/reflex.ico",
      "initials": "RF"
+    },
+    {"name": "Angular",
+     "image": "languages/angular.png",
+     "initials": "AN"
     }
 ]
 

@@ -10,7 +10,7 @@ def header() -> rx.Component:
     return rx.vstack(
         rx.hstack(
             rx.avatar(
-                src="fotoperfil.jpg",
+                src="user.jpg",
                 name="Josep Guiu",
                 size="7",
                 fallback="Pepe",
