@@ -10,7 +10,7 @@ def header() -> rx.Component:
     return rx.vstack(
         rx.hstack(
             rx.avatar(
-                src="user.jpg",
+                src="pepeperfil.jpg",
                 name="Josep Guiu",
                 size="7",
                 fallback="Pepe",
@@ -33,7 +33,8 @@ def header() -> rx.Component:
                 rx.hstack(
                     link_icon("instagram", "https://www.instagram.com/josep.guiu?igsh=MXJ0cnBnYjFldXlsdA=="), #https://reflex.dev/docs/library/data-display/icon/
                     link_icon("linkedin", "https://es.linkedin.com/in/josep-guiu-silles-181290231/de?trk=people-guest_people_search-card"),
-                    link_icon("facebook", "https://es-la.facebook.com/josep.guiusilles/")
+                    link_icon("facebook", "https://es-la.facebook.com/josep.guiusilles/"),
+                    link_icon("github", "https://github.com/josepguiudev")
                 ),
             ),
         spacing= Size.BIG.value
@@ -59,8 +60,15 @@ def header() -> rx.Component:
             padding_x=Size.DEFAULT.value
         ),
         rx.text(
-            """Hola a todos, esta web está hecha con Python y con Reflex. De todos modos, la voy a utilizar
-            como medio para exponer mis proyectos y también, a modo de comunicación profesional.""",
+            """Hola mundo! Este es mi portfolio personal, donde podrás encontrar 
+            un poco más de información sobre lo que he ido aprendiendo del sector. 
+            Para ver mis proyectos puedes acceder a mi perfil de Github, donde 
+            podrás ver el modo en el que trabajo. Si quieres contactar conmigo lo 
+            podrás hacer mediante la sección de contacto que encontrarás un poco más abajo.""",
+            width="100%"
+        ),
+        rx.text(
+            "Por último, me gustaría recalcar que esta web está hecha con Python.",
             width="100%"
         ),
         style= body_style_size

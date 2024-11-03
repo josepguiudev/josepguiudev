@@ -26,7 +26,7 @@ BASE_STYLE={
     "background":Color.PRIMARY.value,
     rx.link: {
         "text_decoration": "none",
-        "_hover": {}
+        ":hover": {}
     },
     rx.button: {
         "width": "100%",
@@ -37,7 +37,7 @@ BASE_STYLE={
         "color": TextColor.HEADER.value,
         "white_space": "normal",
         "text_align": "start",
-        "_hover": {"background_color": Color.COLOR_HOVER.value}
+        ":hover": {"background_color": Color.COLOR_HOVER.value}
     },
 }
 
@@ -59,7 +59,7 @@ button_body_style = dict(
 
 border_image_foot = dict(
     border_radius="25px 7px",
-    border="3px solid",
+    border="2px solid",
     border_color=Color.COLOR_HOVER.value
 )
 
