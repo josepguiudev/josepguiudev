@@ -12,7 +12,7 @@ Soy Pepe, un desarrollador de software con experiencia en Java, Python y C# (ent
 - **Tecnologías**: Java y Arduino.
 
 ## Actualmente estoy trabajando en ... 🔭
-###    - **BasicConcepts Python Backend**
+###    - **CompanyProject**
 
 ## Actualmente estoy aprendiendo ... 🌱
 ###    - **JavaScript**
@@ -20,6 +20,7 @@ Soy Pepe, un desarrollador de software con experiencia en Java, Python y C# (ent
 ## Trabajos acabados ⚡
 ###    - **PortFolio**
 ###    - **ConnectYourArduinoWithJava**
+###    - **BasicConcepts Python Backend**
 
 # Mi Portfolio
 Bienvenido a mi portfolio. [Aquí](https://github.com/josepguiudev/josepguiudev) encontrarás una colección de mis proyectos y habilidades.
