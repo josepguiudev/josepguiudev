@@ -54,7 +54,7 @@ def header() -> rx.Component:
             rx.spacer(),
             rx.text("Edad: 31 años"),
             rx.spacer(),
-            rx.text("Tlf: 640648963"),
+            rx.text("Tlfn: 640648963"),
             rx.spacer(),
             width= "100%",
             padding_x=Size.DEFAULT.value
