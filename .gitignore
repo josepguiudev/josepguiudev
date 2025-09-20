@@ -1,6 +1,6 @@
-.states
 *.db
 *.py[cod]
+.states
 .web
 __pycache__/
 assets/external/
