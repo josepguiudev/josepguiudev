@@ -31,7 +31,7 @@ def email_button(title: str, body: str, email: str, url: str) -> rx.Component:
                         style= styles.button_body_style,
                         text_align="start"
                     ),
-                    spacing= Size.SMALL.value
+                    spacing= Size.NEW_SMALL.value
                 ),
                 width= "100%",
                 padding_y= Size.SMALL.value,

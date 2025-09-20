@@ -14,6 +14,8 @@ class Size(Enum):
     BIG="2em"
     MORE_BIG="3em"
     VERY_BIG="4em"
+    NEW_SMALL="1"
+    NEW_BIG="2"
 
 STYLESHEETS=[
     #Aqui podemos importar cualquier css de por ejemplo github

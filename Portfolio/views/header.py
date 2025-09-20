@@ -37,7 +37,7 @@ def header() -> rx.Component:
                     link_icon("github", "https://github.com/josepguiudev")
                 ),
             ),
-        spacing= Size.BIG.value
+        spacing=Size.NEW_BIG.value
         ),
         rx.flex(
             rx.hstack(
