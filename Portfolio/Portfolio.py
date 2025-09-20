@@ -17,6 +17,7 @@ class State(rx.State):
 
 def index() -> rx.Component:
     # (Index), aquí se pondrans las views para que se printeen a la web
+    # Nueva prueba
     return rx.box(
         navbar(), 
         rx.center(
