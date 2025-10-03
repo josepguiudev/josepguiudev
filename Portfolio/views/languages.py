@@ -7,7 +7,7 @@ from Portfolio.components.knowledge_card import knowledge_card
 def languages() -> rx.Component:
     return rx.box(
         rx.vstack(
-            title("LENGUAJES"),
+            title("COMPETENCIAS Y LENGUAJES"),
             rx.grid(
                 rx.foreach(Constants.languages, knowledge_card),
                 columns="3",

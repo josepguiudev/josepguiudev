@@ -22,24 +22,33 @@ def footer() -> rx.Component:
                         size=20
                     ),
                     rx.text(
-                        "V.1", 
+                        "V.1.1", 
                     font_size=Size.MEDIUM.value,
                     color="green"),
                 ),
             ),
             rx.spacer(),
             rx.vstack(
-                rx.text(
-                    "Página personal", 
-                    font_size=Size.MEDIUM.value),
-                rx.spacer(),
-                rx.link(
-                    rx.text(
-                        "Repositorio de GITHUB", 
+                rx.hstack(
+                    rx.link(
+                        rx.text(
+                        "Repositorio de GITHUB FP", 
                         font_size=Size.MEDIUM.value),
-                    href= "https://github.com/josepguiudev/josepguiudev",
-                    is_external= True
+                        href= "https://github.com/Josep-Guiu",
+                        is_external= True
+                    ),
+                    rx.link(
+                        rx.text(
+                        "Repositorio de GITHUB Personal", 
+                        font_size=Size.MEDIUM.value),
+                        href= "https://github.com/josepguiudev/josepguiudev",
+                        is_external= True
+                    )
                 ),
+                rx.spacer(),
+                rx.text(
+                    "Página personal, Framework usado: Reflex, Lenguaje: Python, Fecha: " + str(datetime.datetime.now().year), 
+                    font_size=Size.MEDIUM.value)
             ),
         ),
         rx.spacer(),

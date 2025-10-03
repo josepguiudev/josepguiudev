@@ -50,6 +50,41 @@ languages = [
      "image": "languages/angular.png",
      "initials": "AN",
      "url": "https://angular.dev/"
+    },
+    {"name": "JavaScript",
+     "image": "languages/javaScript.png",
+     "initials": "JS",
+     "url": "https://angular.dev/"
+    },
+    {"name": "PHP",
+     "image": "languages/php.png",
+     "initials": "PHP",
+     "url": "https://angular.dev/"
+    },
+    {"name": "HTML5",
+     "image": "languages/html-5.png",
+     "initials": "HTML",
+     "url": "https://angular.dev/"
+    },
+    {"name": "CSS",
+     "image": "languages/css-3.png",
+     "initials": "CSS",
+     "url": "https://angular.dev/"
+    },
+    {"name": "Vercel",
+     "image": "languages/vercel.png",
+     "initials": "VCL",
+     "url": "https://angular.dev/"
+    },
+    {"name": "ByetHost",
+     "image": "languages/byet.png",
+     "initials": "BH",
+     "url": "https://angular.dev/"
+    },
+    {"name": "Xampp",
+     "image": "languages/xampp.png",
+     "initials": "XMP",
+     "url": "https://angular.dev/"
     }
 ]
 

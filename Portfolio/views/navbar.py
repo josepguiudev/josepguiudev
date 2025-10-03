@@ -7,6 +7,15 @@ def navbar() -> rx.Component:
             rx.text("Josep Guiu"),
             rx.spacer(),
             rx.text("JosepGuiuDev@gmail.com"),
+            rx.link(
+                "Currículum",
+                href="https://drive.google.com/file/d/1emagXMreXEaYleNW-BuigMycjtbWSF0f/view?usp=drive_link",
+                download=True,
+                target="_blank",
+                color="#3399FF",  # Azul claro
+                font_weight="bold",
+                text_decoration="underline"
+            ),
             width="100%"
         ),
         bg=Color.NAVBAR_COLOR.value,

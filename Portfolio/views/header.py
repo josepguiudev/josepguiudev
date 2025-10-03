@@ -60,15 +60,24 @@ def header() -> rx.Component:
             padding_x=Size.DEFAULT.value
         ),
         rx.text(
-            """Hola mundo! Este es mi portfolio personal, donde podrás encontrar 
-            un poco más de información sobre lo que he ido aprendiendo del sector. 
-            Para ver mis proyectos puedes acceder a mi perfil de Github, donde 
-            podrás ver el modo en el que trabajo. Si quieres contactar conmigo lo 
-            podrás hacer mediante la sección de contacto que encontrarás un poco más abajo.""",
+            """He finalizado el ciclo formativo de Desarrollo de Aplicaciones Multiplataforma (DAM) 
+            y actualmente curso el ciclo de Desarrollo de Aplicaciones Web (DAW). Durante mi formación, 
+            he adquirido una base sólida en el desarrollo de software y me encuentro motivado por aplicar 
+            estos conocimientos en un entorno profesional.""",
             width="100%"
         ),
         rx.text(
-            "Por último, me gustaría recalcar que esta web está hecha con Python.",
+            """Estoy muy interesado en formar parte de su equipo como estudiante en prácticas, donde pueda 
+            contribuir con mi dedicación, compromiso y ganas de aprender, al mismo tiempo que adquiero experiencia 
+            práctica valiosa para mi desarrollo profesional.""",
+            width="100%"
+        ),
+        rx.text(
+            """Quedo a su disposición para una entrevista, en la que podré ampliar cualquier información que consideren necesaria.""",
+            width="100%"
+        ),
+        rx.text(
+            """Agradezco su atención y espero tener la oportunidad de colaborar con ustedes.""",
             width="100%"
         ),
         style= body_style_size

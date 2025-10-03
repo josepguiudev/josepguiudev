@@ -12,6 +12,13 @@ def education() -> rx.Component:
             rx.text.strong(" (CEP) "),
             width="100%"
         ),
+        rx.text(
+            "·Estudiando desarrollo de aplicaciones web",
+            rx.text.strong(" (DAW) "),
+            "en el \"Centre d'estudis politècnics\"",
+            rx.text.strong(" (CEP) "),
+            width="100%"
+        ),
         title("OTROS"),
         rx.text(
             "· Estudié marketing y relaciones públicas",
