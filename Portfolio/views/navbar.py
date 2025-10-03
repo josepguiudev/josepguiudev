@@ -4,7 +4,7 @@ from Portfolio.styles.styles import Size, Color
 def navbar() -> rx.Component:
     return rx.vstack(
         rx.hstack(
-            rx.text("Josep Guiu"),
+            rx.text("Josep Guiu Sillés"),
             rx.spacer(),
             rx.text("JosepGuiuDev@gmail.com"),
             rx.link(

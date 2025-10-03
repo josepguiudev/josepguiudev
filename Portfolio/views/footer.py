@@ -53,6 +53,13 @@ def footer() -> rx.Component:
         ),
         rx.spacer(),
         rx.image(
+            src="fp2.jpg",
+            width="auto",
+            height= Size.VERY_BIG.value,
+            style= styles.border_image_foot,
+            alt= "Logotipo de josep, una \"D\" dentro de un circulo"
+        ),
+        rx.image(
             src="logopie2.jpg",
             width="auto",
             height= Size.VERY_BIG.value,

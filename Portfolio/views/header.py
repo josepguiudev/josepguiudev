@@ -21,7 +21,7 @@ def header() -> rx.Component:
             ),
             rx.vstack(
                 rx.heading(
-                    "Josep Guiu",
+                    "Josep Guiu Sillés",
                     size= "4",
                 ),
                 rx.text(
@@ -34,7 +34,8 @@ def header() -> rx.Component:
                     link_icon("instagram", "https://www.instagram.com/josep.guiu?igsh=MXJ0cnBnYjFldXlsdA=="), #https://reflex.dev/docs/library/data-display/icon/
                     link_icon("linkedin", "https://es.linkedin.com/in/josep-guiu-silles-181290231/de?trk=people-guest_people_search-card"),
                     link_icon("facebook", "https://es-la.facebook.com/josep.guiusilles/"),
-                    link_icon("github", "https://github.com/josepguiudev")
+                    link_icon("github", "https://github.com/josepguiudev"),
+                    link_icon("github", "https://github.com/Josep-Guiu")
                 ),
             ),
         spacing=Size.NEW_BIG.value
